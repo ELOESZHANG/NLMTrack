@@ -9,6 +9,6 @@ and the complex classification and regression heads are discarded. To address th
 On the other hand, the decoder combines the TIR features and the coordinate sequence features using a causal transformer to generate the target sequence step by step. 
 Moreover, we explore an adaptive loss aimed at elevaing tracking accuracyand and a simple template update strategy to accommodate the target's appearance variations. Experiments show that NLMTrack achieves state-of-the-art performance on multiple benchmarks.
 <figure>
-  <img src="./tracking/overview.png" alt="这里写图片描述">
-  <figcaption>这里写注释</figcaption>
+  <img src="./tracking/overview.png" alt="overview">
+  <figcaption>(a) Our NLMTrack framework</figcaption>
 </figure>
