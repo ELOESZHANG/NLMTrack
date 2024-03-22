@@ -73,8 +73,6 @@ class BaseTrainer:
             try:
                 if load_latest:
                     self.load_checkpoint()
-                    # directory = '/media/SSDPA/yanmiao/rgb/SeqTrack/got10k/SEQTRACK_ep0500.pth.tar'
-                    # self.load_state_dict(directory)
                 if load_previous_ckpt:
                     directory = '{}/{}'.format(self._checkpoint_dir, self.settings.project_path_prv)
                     self.load_state_dict(directory)
