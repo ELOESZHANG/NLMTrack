@@ -271,7 +271,7 @@ def vit_base_patch16(pretrained=False, pretrain_type='default',
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
 
     # if pretrained:
-    #     ckpt_path = 'mixformer_vit_base_online.pth.tar'
+    #     ckpt_path = ''
     #     ckpt = torch.load(ckpt_path, map_location='cpu')['net']
     #     new_dict = {}
     #     for k, v in ckpt.items():
