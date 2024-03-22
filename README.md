@@ -12,6 +12,7 @@ Moreover, we explore an adaptive loss aimed at elevaing tracking accuracyand and
   <img src="./tracking/overview.png" alt="overview">
   <figcaption style="text-align: center;"></figcaption>
 </figure>
+
 <figure>
   <img src="./tracking/EVALUATION RESULTS.png" alt="table">
   <figcaption style="text-align: center;"></figcaption>
