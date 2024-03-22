@@ -13,7 +13,7 @@ Moreover, we explore an adaptive loss aimed at elevaing tracking accuracyand and
   <figcaption style="text-align: center;"></figcaption>
 </figure>
 
-## EVALUATION RESULTS OF NLMTRACK AND 13 OTHER TRACKERS ON LSOTB-TIR BENCHMARK
+## Evaluation results on LSOTB-TIR benchmark
 <figure>
   <img src="./tracking/EVALUATION RESULTS.png" alt="table">
   <figcaption style="text-align: center;"></figcaption>
