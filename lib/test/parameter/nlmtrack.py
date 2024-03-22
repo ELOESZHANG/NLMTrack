@@ -24,7 +24,9 @@ def parameters(yaml_name: str):
     # Network checkpoint path
     # params.checkpoint = os.path.join(save_dir, "checkpoints/train/seqtrack/%s/SEQTRACK_ep%04d.pth.tar" %
     #                                  (yaml_name, cfg.TEST.EPOCH))
-    params.checkpoint = '/media/SSDPA/yanmiao/rgb/NLMTrack/NLMTrack_ep0120.pth.tar'
+    params.checkpoint = ' ' # Network checkpoint path
+   
+    
     # whether to save boxes from all queries
     params.save_all_boxes = False
 
