@@ -83,7 +83,7 @@ def main():
     #              local_rank=args.local_rank, save_dir=args.save_dir, base_seed=args.seed,
     #              use_lmdb=args.use_lmdb)
     run_training('nlmtrack', 'nlmtrack'
-                 , save_dir='/media/SSDPA/yanmiao/rgb/NLMTrack/model')
+                 , save_dir='')
 
 
 
