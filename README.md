@@ -13,8 +13,14 @@ Moreover, we explore an adaptive loss aimed at elevaing tracking accuracyand and
   <figcaption style="text-align: center;"></figcaption>
 </figure>
 
-## Evaluation results on LSOTB-TIR benchmark
+## Evaluation results on the LSOTB-TIR benchmark
 <figure>
   <img src="./tracking/EVALUATION RESULTS.png" alt="table">
   <figcaption style="text-align: center;"></figcaption>
 </figure>
+
+## Test
+1. Please download the LSOTB-TIR evaluation dataset, PTB-TIR dataset, and VOT-TIR2015 dataset.
+2. Configure paths in  `lib/test/evaluation/local.py` and `lib/test/parameter/nlmtrack.py`.
+3. Run `tracking/test.py` for testing
+4. Evaluation on the [LSOTB-TIR benchmark](https://github.com/QiaoLiuHit/LSOTB-TIR)
